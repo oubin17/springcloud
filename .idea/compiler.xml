@@ -9,6 +9,7 @@
         <module name="eureka-client" />
         <module name="eureka-consumer" />
         <module name="eureka-feign" />
+        <module name="eureka-hystrix" />
         <module name="eureka-ribbon" />
         <module name="eureka-service" />
         <module name="springcloud" />
