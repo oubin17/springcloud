@@ -1,5 +1,6 @@
 package com.ob.eurekafeign.interfaces;
 
+import com.ob.eurekafeign.impl.EurekaFeignImpl;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @Date: 2020/6/10 08:51
  * @Description:
  */
-@FeignClient(value = "eureka-client")
+@FeignClient(value = "eureka-client", fallback = EurekaFeignImpl.class)
 public interface IEurekaFeign {
 
     /**
