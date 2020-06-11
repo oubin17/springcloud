@@ -12,6 +12,7 @@
         <module name="eureka-hystrix" />
         <module name="eureka-ribbon" />
         <module name="eureka-service" />
+        <module name="eureka-zuul" />
         <module name="springcloud" />
       </profile>
     </annotationProcessing>
