@@ -6,5 +6,14 @@ spring:
       uri: http://localhost:1010/
       profile: dev
       label: master
+      discovery:
+        # 从配置中心读取文件
+        enabled: true
+        # 服务名
+        service-id: eureka-config
 server:
   port: 1011
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/

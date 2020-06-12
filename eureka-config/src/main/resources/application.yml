@@ -11,4 +11,7 @@ spring:
 server:
   port: 1010
 
-# git config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
