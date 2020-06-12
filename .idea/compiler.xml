@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-config" />
+        <module name="eureka-config-client" />
         <module name="eureka-consumer" />
         <module name="eureka-feign" />
         <module name="eureka-hystrix" />
