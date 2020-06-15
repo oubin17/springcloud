@@ -17,6 +17,9 @@
         <option value="$PROJECT_DIR$/eureka-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-config/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-trace1/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-trace2/pom.xml" />
       </list>
     </option>
   </component>

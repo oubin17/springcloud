@@ -15,8 +15,14 @@
         <module name="eureka-ribbon" />
         <module name="eureka-service" />
         <module name="eureka-zuul" />
+        <module name="sleuth-zipkin" />
         <module name="springcloud" />
+        <module name="zipkin-trace1" />
+        <module name="zipkin-trace2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sleuth-zipkon" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
