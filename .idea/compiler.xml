@@ -18,6 +18,7 @@
         <module name="sleuth" />
         <module name="sleuth-zipkin" />
         <module name="springcloud" />
+        <module name="stream-rabbitmq" />
         <module name="zipkin-trace1" />
         <module name="zipkin-trace2" />
       </profile>

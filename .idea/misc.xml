@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/sleuth-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-trace1/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-trace2/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-rabbitmq/pom.xml" />
       </list>
     </option>
   </component>
