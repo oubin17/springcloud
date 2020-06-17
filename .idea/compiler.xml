@@ -15,6 +15,7 @@
         <module name="eureka-ribbon" />
         <module name="eureka-service" />
         <module name="eureka-zuul" />
+        <module name="sleuth" />
         <module name="sleuth-zipkin" />
         <module name="springcloud" />
         <module name="zipkin-trace1" />
