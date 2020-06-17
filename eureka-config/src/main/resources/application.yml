@@ -5,8 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/oubin17/springcloud/
-          search-paths: src/main/resources
+          uri: https://github.com/oubin17/springcloud/resources
       label: master
 server:
   port: 1010

@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/v1.0")
 public class EurekaConfigClientController {
 
-//    @Value("${info.profile}")
-//    private String profile;
-//
-//    @RequestMapping("/config/client")
-//    public String from() {
-//        return this.profile;
-//    }
+    @Value("${info.profile}")
+    private String profile;
+
+    @RequestMapping("/config/client")
+    public String from() {
+        return this.profile;
+    }
 }
