@@ -7,10 +7,23 @@ spring:
         git:
           uri: https://github.com/oubin17/config-repo
       label: master
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 server:
   port: 1010
 
+# 注册中心eureka地址
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:1001/eureka/
+
+# 刷新时，关闭安全验证
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

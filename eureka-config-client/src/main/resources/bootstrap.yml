@@ -3,7 +3,7 @@ spring:
     name: eureka-config-client
   cloud:
     config:
-      uri: http://localhost:1010/
+      # uri: http://localhost:1010/   使用eureka 注册中心，去掉uri的配置
       profile: dev
       label: master
       discovery:
@@ -11,9 +11,26 @@ spring:
         enabled: true
         # 服务名
         service-id: eureka-config
+    # 开启消息跟踪
+    bus:
+      trace:
+        enabled: true
+  # rabbitmq 配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 server:
   port: 1011
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:1001/eureka/
+# 刷新时，关闭安全验证
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
